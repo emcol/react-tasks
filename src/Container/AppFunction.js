@@ -24,6 +24,7 @@ export default function AppFunction() {
       newTask,
       ...prevAllTasks
     ]);
+    setNewTask({});
   };
   const handleDelete = (taskIdToRemove) => {
 
